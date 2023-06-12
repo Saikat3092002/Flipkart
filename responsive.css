@@ -1,0 +1,140 @@
+
+@media screen and(max-width:800px){
+    
+    body{
+        background-color: aqua;
+    }
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        background-color:black;
+        width: 190%;
+        height: 80px;
+    }
+    .header-left {
+        width: 10%;
+        text-align: right;
+        margin: 5px 0px;
+        cursor: pointer;
+    }
+    
+    .header-left a{
+        color:white;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bolder;
+        font-style: italic;
+
+    }
+    .header-center {
+        width: 40%;
+        text-align: left;
+        line-height: 60px;
+        cursor: pointer;
+        padding-left: px;
+        padding-top: 30px;
+        position: relative;
+    }
+    .header-center-input {
+        height: 25px;
+        width: 90%;
+        border: none;
+        text-align: left;
+        padding-left: -1px;
+        cursor: pointer;
+        
+    }
+    
+    .fa-search {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+    }
+    .fa-shopping-cart {
+        position: absolute;
+        top: 1%;
+        left: 85%;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    .category-rows img{
+        width: 56px;
+    height: 10vh;
+}
+    }
+    .category-rows {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+        letter-spacing: 0.2px;}
+    .category-col {
+        display: block;
+        padding: 10px 0px;
+        cursor: pointer;
+        color: black;
+        font-size: 12px;
+    }
+    .banner img{
+        width: 100vw;
+        height: 40vh;
+    }
+    
+    .common-heading {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 2px 10px;
+        margin-top: 5px;
+        box-shadow: 0 1px 1px 0 rgb(0, 0, 0/16%);
+    }
+    .common-heading-left h1{
+        font-size: 22px;
+    }
+    .common-col img {
+        width: 40px;
+        height: 90px;
+        transition: 300ms;
+    }
+    .common-col h3 {
+            margin-top: 7px;
+            font-size: 8px;
+      }
+      .common-col h3, h4, h6 {
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+      }
+      .common-col h4 {
+        color: green;
+        font-size: 6px;
+        font-weight: 200;
+        font-weight: bold;
+    }
+    .common-col h6 {
+        font-size: 10px;
+        font-weight: 200;
+        font-weight: bold;
+    }
+    .common-row {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        min-height: 36px;
+        margin: 5px 0px;
+    }
+    .common-col {
+        text-align: center;
+        line-height: 12px;
+    }
+    
+}
